@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+C:\Users\Curso Tarde.DESKTOP-SMSA191\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1230497252.index
+3368347955.index
+1295272126.index
+1659790025.index
+1554412832.index

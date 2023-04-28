@@ -1,0 +1,27 @@
+import java.io.File;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class ProgramadorTareas {
+
+	public static void main(String[] args) {
+		
+		File archivo = new File("C:\\Users\\alex_\\Documents\\tareas.txt");
+		
+		
+		Usuario accesoU = new Usuario();
+		Tareas accesoT = new Tareas();
+		
+		accesoU.leerFichero();
+		accesoT.leerFichero(archivo);
+		TreeSet<String> listaU =accesoU.obtenerUsuario();
+		HashSet<String> listaT=accesoT.obtenerUsuario();
+		
+		for(String elementoU : listaU) {
+			for(String elementoT : listaT) {
+				System.out.println("El usuario "+ elementoU +" tiene que realizar la tarea "+ elementoT);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.132
+C:\Users\Curso Tarde.DESKTOP-SMSA191\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2263718480.index
+\servlet_28042023_eclipse\src\main\java
+C:\Users\Curso Tarde.DESKTOP-SMSA191\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1092748336.index
+\servlet_28042023_git\src\main\java
+C:\Users\Curso Tarde.DESKTOP-SMSA191\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3647293167.index
+\servlet_27042023_eclipse\src\main\java

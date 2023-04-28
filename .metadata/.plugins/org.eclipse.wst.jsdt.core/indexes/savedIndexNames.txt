@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\Curso Tarde.DESKTOP-SMSA191\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2263718480.index
+1554412832.index
+1092748336.index
+3647293167.index
+1295272126.index

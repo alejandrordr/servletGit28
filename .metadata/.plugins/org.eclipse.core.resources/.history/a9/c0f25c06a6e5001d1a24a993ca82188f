@@ -1,0 +1,48 @@
+package com.teoria;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class GuardarTeoria
+ */
+@WebServlet("/GuardarTeoria")
+public class GuardarTeoria extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public GuardarTeoria() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+		response.getWriter().append("servlet ok");
+		String correo=request.getParameter("coreo");
+		String pass=request.getParameter("pw");
+		String acepto=request.getParameter("cb");
+		response.getWriter().append("<p>Tu correo es "+correo+"</p>");
+		response.getWriter().append("<p>Tu contraseña es "+pass+"</p>");
+		response.getWriter().append("<p>Has acertado "+acepto+"</p>");
+	}
+
+}
